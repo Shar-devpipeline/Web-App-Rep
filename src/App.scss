@@ -1,0 +1,46 @@
+@import "./styles/navbar.scss";
+@import "./styles/maincontent.scss";
+
+$primary-color: #252627;
+$secondary-color: #d3d4d9;
+$text-color: #4b88a2;
+
+$button-bg: #bb0a21;
+$button-hover: #701824;
+
+.app {
+  display: flex;
+  height: 100%;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+  background-color: $secondary-color;
+
+  .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: $primary-color;
+  color: $secondary-color;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 3px 0px 15px 6px rgba(0, 0, 0, 0.5);
+  align-items: center;
+
+  .social-media {
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .copyright {
+    margin-right: 20px;
+  }
+}

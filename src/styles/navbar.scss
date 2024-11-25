@@ -1,0 +1,40 @@
+$primary-color: #252627;
+$secondary-color: #d3d4d9;
+$text-color: #4b88a2;
+
+$button-bg: #bb0a21;
+$button-hover: #701824;
+
+.navbar {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+  .logo {
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+    img {
+      width: 50px;
+      border-radius: 2px;
+      box-shadow: 3px 0px 15px 6px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: $button-bg;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-hover;
+  }
+}
